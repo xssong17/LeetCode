@@ -8,6 +8,8 @@ package leetCode
 @Date    ：2024/2/22 23:18
 */
 
+//	https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0011.Container-With-Most-Water/
+
 func maxArea(nums []int) (output int) {
 	var (
 		right = len(nums) - 1
